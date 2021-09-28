@@ -1,0 +1,230 @@
+
+.centerlogo {
+    height: 40px; width: 40px;
+}
+.flow1 {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 480px;
+    margin-right: 480px;
+    color: grey;
+
+}
+nav{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 480px;
+    margin-right: 480px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+nav li {
+   display: inline;
+}
+nav :last-child li {
+    margin-left: 50px;
+}
+.logodoc{
+    max-width:10%;
+    height:auto;
+}   
+.clogo{
+    width: 20px;
+    height:auto;
+}   
+.tinylogo{
+    max-width:12%;
+    height:auto;
+} 
+.P1{
+ width: 450px; 
+}
+#center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:rgb(0, 204, 177);
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 480px;
+    margin-right: 480px;
+    margin-top: 50px;
+}
+.cards .card {
+    width: 180px;
+    height: 250px;
+    border-radius: 10px;
+    line-height: 30px;
+    text-align: start;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    color: white;
+    position: relative;
+}
+.card .absolute {
+    
+    color:white;
+    position: relative; 
+    top:20%;
+  
+}
+.card .absolute2 {
+    color:white;
+    position: relative; 
+    top:5%;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 480px;
+    margin-right: 480px; 
+    margin-top: 50px;
+}
+.global{
+
+    width: 450px;
+}
+footer div {
+    color: gray;
+    display: flex;
+    
+    flex-wrap: wrap; 
+    justify-content: space-around;   
+    align-content: flex-start;
+}
+.hover p:hover {
+    color:rgb(0, 204, 177); 
+}
+.hover img {
+    filter: grayscale(100%)
+}
+.hover img:hover {
+    filter: grayscale(0%)
+}
+main{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.mid {
+    background-color: rgb(223,248,247);
+}
+.mid img{
+    
+    margin-top: 200px;
+}
+.grid {
+    margin-left: 480px;
+    margin-right: 480px;
+    height: 450px;
+    display: grid;
+    grid-template-columns: repeat(20, 5%);
+    grid-template-rows: repeat(20,5%);
+}
+.text{
+    grid-column: 1/8;
+    grid-row: 3/9;
+    text-align: left;
+}
+.box1{
+    grid-column: 10/14;
+    grid-row: 3/11;
+    background-color: white;
+    background: url("flag.png"), white;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 12% 15%; 
+}
+
+.box2{
+    grid-column: 10/14;
+    grid-row: 12/20;
+    background-color: white;
+    background: url("patients.png"), white;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 12% 15%; 
+}
+.box3{
+    grid-column: 15/19;
+    grid-row: 2/10;
+    background-color: white;
+    background: url("visits.png"), white;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 12% 15%; 
+}
+.box4{
+    grid-column: 15/19;
+    grid-row: 11/19;
+    background-color: white;
+    background: url("doctors.png"), white;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 12% 15%; 
+}
+.grid p{
+    font-size: 10px;
+    color: grey;
+    margin:0 10px 10px 10px;
+    text-align: center;
+}
+.grid h3{
+    font-size: 15px;
+    color: rgb(0,204,177);
+    text-align: center;
+}
+.grid h5{
+    font-size: 13px;
+    color: rgb(0,204,177);
+    text-align: center;
+}
+
+.improve{
+    text-align: center;
+    height: 250px;
+}
+.images{
+    
+    margin-left: 480px;
+    margin-right: 480px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.city {
+    margin-bottom: 40px;
+}
+.city div{
+    display: inline-block;
+    width: 250px;
+}
+.images img {
+    display: block;
+    width: 250px;
+    height:auto;
+    border-radius: 5px; 
+}
+.images p, .images a {
+    display: inline;
+    margin-left: 20px;
+}
+.images a {
+    margin-left: 50px;
+    background-color: rgb(74, 132, 190);
+    color: white;
+    border-radius: 5px;
+    padding: 5px; 
+    font-size: 12px;
+}
+.city div{
+margin-top: 10px;
+}
+.bottom a {
+    
+    background-color: rgb(74, 132, 190);
+    color: white;
+    border-radius: 5px;
+    padding: 5px; 
+    font-size: 20px;;
